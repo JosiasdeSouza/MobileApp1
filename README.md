@@ -3,5 +3,5 @@
 ## Week 1
 
 - Build a Hello World app
-- Change text programatically
+- Change text programmatically
 - Add string resource

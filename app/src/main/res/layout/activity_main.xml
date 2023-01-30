@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/myTextView"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="hello_world"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      android:text="@string/hello_world2" />
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    <WelcomeNameText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/Enter_you_name_here"
+        android:inputType="text" />
+
+    <Button
+        android:text="@string/my_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <TextView
+       android:id="@+id/myTextView2"
+       android:text="@string/new_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/myTextView3"
+        android:text="@string/new_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+  </LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="welcomeText" type="id">test4</item>
+    <item name="saveButton" type="id">test20</item>
+    <item name="nameEditText" type="id">text21</item>
+    <item name="welcome" type="id">welcome</item>
+</resources>
